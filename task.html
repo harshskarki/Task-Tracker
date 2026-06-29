@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Task Tracker</title>
+    <link rel="stylesheet" href="task.css">
+    <script src="task.js" defer></script>
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>Tasks</h1>
+            <button id="themeToggle" class="theme-toggle">🌙</button>
+        </header>
+
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="What needs to be done?">
+            <button id="addTaskBtn" class="add-btn">Add</button>
+        </div>
+
+        <ul id="taskList"></ul>
+        
+        <div id="controls" class="controls" style="display: none;">
+            <span id="itemsLeft">0 items left</span>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+            <button id="clearCompleted" class="clear-btn">Clear completed</button>
+        </div>
+
+        <p id="emptyState" class="empty-message">No tasks yet. Add one above!</p>
+    </div>
+
+    <footer class="page-footer">
+        made by harshskarki
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
