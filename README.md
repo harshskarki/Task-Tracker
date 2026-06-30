@@ -3,6 +3,10 @@
 A modern and responsive task management application built using **HTML, CSS, and JavaScript**. This project helps users organize daily tasks efficiently with features like task filtering, dark mode, local storage persistence, and task completion tracking.
 
 ---
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://task-tracker-inky-beta.vercel.app/)
+👉 https://task-tracker-inky-beta.vercel.app/
 
 ## 🚀 Live Features
 
