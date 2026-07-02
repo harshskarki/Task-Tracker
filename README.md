@@ -1,4 +1,4 @@
-# ✅ Task Tracker
+# 🕓 Task Tracker
 
 A modern and responsive task management application built using **HTML, CSS, and JavaScript**. This project helps users organize daily tasks efficiently with features like task filtering, dark mode, local storage persistence, and task completion tracking.
 
